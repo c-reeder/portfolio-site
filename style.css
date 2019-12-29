@@ -1,5 +1,71 @@
+body {
+	//background-color: #795548;
+	background-image: url("leather3a.jpg");
+
+}
 h1 {
+    font-family: 'Viga', sans-serif;
+	display: inline;
+}
+#container {
+	//background-color: #A1887F;
+	//max-width: 1200px;
+	//margin-top: 18vh;
+	padding: 15px;
+	box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
+	background-image: url("leather2d.png");
+	border-style: solid;
+}
+.side-col {
+	//width: 15%;
+	min-height: 1px;
+}
+#rightCol {
+	width: 15%;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.6rem;
+}
+.w3-quarter {
+	min-height: 1px;
+}
+#row {
+	display: table;
+}
 
-	color: blue;
+#navBar {
+	width: 60%;
 
+}
+.w3-bar .w3-bar-item {
+	width: 48%;
+	background-color: #A1887F;
+	color: #EED6CD;
+    font-family: 'Raleway', sans-serif;
+	font-size: 1.1rem;
+	font-weight: bold;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 11px;
+	background-image: url("single_belt.jpg");
+	background-size: contain;
+	text-align: center;
+	text-decoration: none;
+}
+
+.w3-bar .w3-bar-item:hover {
+	background-color: #6D4C41 !important;
+	color: white !important;
+}
+#topSpacer {
+	height: 18vh;
+
+}
+hr {
+	display: inline-block;
+  border: 10px solid green;
+  border-radius: 5px;
+  vertical-align: middle;
+  
 }
