@@ -1,6 +1,7 @@
 body {
 	//background-color: #795548;
-	background-image: url("leather3a.jpg");
+	background-image: url("wood1b-small.jpg");
+	background-size: contain;
 
 }
 h1 {
@@ -11,10 +12,17 @@ h1 {
 	//background-color: #A1887F;
 	//max-width: 1200px;
 	//margin-top: 18vh;
-	padding: 15px;
+	padding: 35px;
 	box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
-	background-image: url("leather2d.png");
-	border-style: solid;
+	background-image: url("slate2.jpg");
+	background-size: contain;
+	//border-style: solid;
+	color: #ffffffd6;
+ border-image-slice: 65 65 65 65;
+border-image-width: 20px 20px 20px 20px;
+border-image-outset: 0px 0px 0px 0px;
+border-image-repeat: repeat repeat;
+border-image-source: url("border.png");
 }
 .side-col {
 	//width: 15%;
