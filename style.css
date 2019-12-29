@@ -1,39 +1,32 @@
 body {
-	//background-color: #795548;
 	background-image: url("wood1b-small.jpg");
 	background-size: contain;
 
 }
 h1 {
-    font-family: 'Viga', sans-serif;
+	font-family: 'Viga', sans-serif;
 	display: inline;
-	//font-family: 'Chalk Line Outline';
 }
 #container {
-	//background-color: #A1887F;
-	//max-width: 1200px;
-	//margin-top: 18vh;
 	padding: 35px;
 	box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
 	background-image: url("slate2.jpg");
 	background-size: contain;
-	//border-style: solid;
 	color: #ffffffd6;
- border-image-slice: 65 65 65 65;
-border-image-width: 20px 20px 20px 20px;
-border-image-outset: 0px 0px 0px 0px;
-border-image-repeat: repeat repeat;
-border-image-source: url("border.png");
+	border-image-slice: 25 25 25 25;
+	border-image-width: 20px 20px 20px 20px;
+	border-image-outset: 0px 0px 0px 0px;
+	border-image-repeat: repeat repeat;
+	border-image-source: url("border-small.png");
 }
 .side-col {
-	//width: 15%;
 	min-height: 1px;
 }
 #rightCol {
 	width: 15%;
 }
 p {
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.6rem;
 }
 .w3-quarter {
@@ -50,7 +43,7 @@ p {
 .w3-bar .w3-bar-item {
 	width: 30%;
 	//background-color: #A1887F;
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.1rem;
 	font-weight: bold;
 	margin-left: 10%;
@@ -72,19 +65,16 @@ p {
 }
 hr {
 	display: inline-block;
-  border: 10px solid green;
-  border-radius: 5px;
-  vertical-align: middle;
-  
+	border: 10px solid green;
+	border-radius: 5px;
+	vertical-align: middle;
+
 }
-@font-face {
-    font-family: 'Chalk Line Outline';
-    src: url('fonts/ChalkLine-Outline.eot');
-    src: url('fonts/ChalkLine-Outline.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ChalkLine-Outline.woff2') format('woff2'),
-        url('fonts/ChalkLine-Outline.woff') format('woff'),
-        url('fonts/ChalkLine-Outline.ttf') format('truetype'),
-        url('fonts/ChalkLine-Outline.svg#ChalkLine-Outline') format('svg');
-    font-weight: normal;
-    font-style: normal;
+#pageIconDiv {
+	float:left;
+	margin-right:10px;
+	position: relative;
+	top:2px;
+	display: flex;
+	justify-content: center;
 }
