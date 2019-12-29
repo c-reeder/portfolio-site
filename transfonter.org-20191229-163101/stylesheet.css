@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Chalk Line Outline';
+    src: url('ChalkLine-Outline.eot');
+    src: url('ChalkLine-Outline.eot?#iefix') format('embedded-opentype'),
+        url('ChalkLine-Outline.woff2') format('woff2'),
+        url('ChalkLine-Outline.woff') format('woff'),
+        url('ChalkLine-Outline.ttf') format('truetype'),
+        url('ChalkLine-Outline.svg#ChalkLine-Outline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
