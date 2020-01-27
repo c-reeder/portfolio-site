@@ -39,23 +39,15 @@ p {
 	width: 60%;
 
 }
-.w3-bar .w3-bar-item {
-	width: 30%;
-	//background-color: #A1887F;
+
+.bottom_item {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.1rem;
 	font-weight: bold;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-radius: 11px;
-	//background-image: url("single_belt.jpg");
-	//background-size: contain;
-	text-align: center;
 	text-decoration: none;
 }
 
 .w3-bar .w3-bar-item:hover {
-	//background-color: #6D4C41 !important;
 	color: white !important;
 }
 #topSpacer {
@@ -71,9 +63,11 @@ hr {
 }
 #pageIconDiv {
 	float:left;
-	margin-right:10px;
 	position: relative;
 	top:2px;
 	display: flex;
 	justify-content: center;
+}
+#emailLink {
+	font-size:3.5vh;
 }
