@@ -1,14 +1,23 @@
 body {
 	background-image: url("background.jpg");
 	background-size: contain;
-
+	margin: 0;
+}
+.outerBox {
+	display: flex;
+	justify-content: center;
+	min-height: min(100vh,1200px);
+	align-items: center;
 }
 h1 {
 	font-family: 'Viga', sans-serif;
 	display: inline;
+	text-align: center;
+	min-width: min(12em,100%);
 }
-#container {
-	padding: 35px;
+#framedBox {
+	max-width: 1000px;
+	padding: 32px 42px;
 	background-image: url("slate.jpg");
 	background-size: contain;
 	color: #ffffffd6;
@@ -18,63 +27,57 @@ h1 {
 	border-image-repeat: repeat repeat;
 	border-image-source: url("border.jpg");
 }
-.side-col {
-	min-height: 1px;
+#framedBox a {
+	color: #ffffffd6;
 }
-#rightCol {
-	width: 15%;
-}
+
 p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.5rem;
 }
-.w3-quarter {
-	min-height: 1px;
+#text-body {
+	margin-bottom: 0px;
+	text-align: center;
+}
+.iconRow {
+	display: flex;
+	justify-content: center;
+	padding: 16px 0 8px;
 }
 
-.icon-col {
-	width: 20%;
+.logoLink img {
+	width: 60px;
+	border-radius: 16px;
 }
-#row {
-	display: table;
-}
-
 #navBar {
-	width: 60%;
-
+	display: flex;
 }
-
-.bottom_item {
+#navBar a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.1rem;
 	font-weight: bold;
 	text-decoration: none;
+	flex-grow: 1;
+	text-align: center;
 }
-
-.w3-bar .w3-bar-item:hover {
-	color: white !important;
-}
-#topSpacer {
-	height: 18vh;
-
-}
-hr {
-	display: inline-block;
-	border: 10px solid green;
-	border-radius: 5px;
-	vertical-align: middle;
-
-}
-#pageIconDiv {
-	float:left;
-	position: relative;
-	top:2px;
+#nameRow {
 	display: flex;
+}
+#nameRow div:first-child {
+	flex-basis: 0;
+	flex-grow: 20;
+	max-width: 30px;
+}
+#nameRow div:last-child {
+	flex-basis: 0;
+	flex-grow: 20;
+}
+#nameInner {
+	display: flex;
+	column-gap: 20px;
+	row-gap: 10px;
+	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
-}
-#emailLink {
-	font-size:3.3vh;
-}
-#text-body {
-	margin-bottom: 0px;
+	min-width: min(30em, 100%);
 }

@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Viga&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
 		<link rel="stylesheet" type="text/css" href="style.css">
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -19,8 +18,6 @@
 
 		<!-- update the version number as needed -->
 		<script defer src="/__/firebase/9.6.1/firebase-app-compat.js"></script>
-		<!-- include only the Firebase features as you need -->
-		<script defer src="/__/firebase/9.6.1/firebase-storage-compat.js"></script>
 		<script defer src="/__/firebase/9.6.1/firebase-analytics-compat.js"></script>
 		<!-- 
 			initialize the SDK after all desired features are loaded, set useEmulator to false
@@ -30,87 +27,37 @@
 
 	</head>
 	<body>
-		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-							// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-							// // The Firebase SDK is initialized and available here!
-							//
-							// firebase.auth().onAuthStateChanged(user => { });
-							// firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-							// firebase.firestore().doc('/foo/bar').get().then(() => { });
-							// firebase.functions().httpsCallable('yourFunction')().then(() => { });
-							// firebase.messaging().requestPermission().then(() => { });
-							// firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-							// firebase.analytics(); // call to activate
-							// firebase.analytics().logEvent('tutorial_completed');
-							// firebase.performance(); // call to activate
-							//
-							// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-							try {
-											let app = firebase.app();
-											let features = [
-															'auth', 
-															'database', 
-															'firestore',
-															'functions',
-															'messaging', 
-															'storage', 
-															'analytics', 
-															'remoteConfig',
-															'performance',
-														].filter(feature => typeof app[feature] === 'function');
-										} catch (e) {
-														console.error(e);
-													}
-						});
-		</script>
-
-
-		<div id="topSpacer" class="w3-hide-small">
-
-		</div>
-
-		<div class="w3-row">
-			<div id=leftCol" class="l2 m2 w3-hide-small side-col w3-col">
-			</div>
-			<div id="container" class="s12 w3-col l8 m8">
-				<div class="w3-row">
-					<div id="pageIconDiv" class="w3-mobile w3-col m2 l1" >
+		<div class="outerBox">
+			<div id="framedBox">
+				<div id="nameRow">
+					<div></div>
+					<div id="nameInner">
 						<img id="pageIcon" src="Cog_Wheel_Icon.png" height="50" width="50"> 
+						<h1>Handcarved Software</h1>
 					</div>
-						<div class="w3-mobile w3-col m9 l5 w3-center">
-							<h1>Handcarved Software</h1>
-						</div>
-
+					<div></div>
 				</div>
 
-				<p id="text-body" class="w3-center">
+				<p id="text-body">
 				My name is Connor Reeder and I am a Computer Science graduate from Georgia Tech with a passion for creating software. I've been programming with Java since 2013 and most recently have used it in developing personal native Android apps. In addition to doing desktop and mobile development, I am an avid student of Linux which arises from my love of tinkering, figuring out how things work, and making them better! In my free time, I enjoy reading about languages and baking bread!
 				If you would like to contact me, you can shoot me an email at <a id="emailLink" href="mailto:connor@handcarved.dev">connor@handcarved.dev</a>.
 				</p>
 
 
 
-				<div class="w3-row">
-					<div class="w3-container w3-col s4 m3 l5"></div>
-					<div class="w3-container w3-center w3-col s4 m6 l2 w3-margin-top w3-margin-bottom">
-						<a class="w3-center" href="https://play.google.com/store/apps/details?id=dev.handcraftedsoftware.hint.free">
-							<img class="w3-round-xlarge" style="width:50%" src="hint_icon.jpg"/>
-						</a>
-					</div>
-					<div class="w3-container w3-col s4 m3 l5"></div>
+				<div class="iconRow">
+					<a class="logoLink" href="https://play.google.com/store/apps/details?id=dev.handcraftedsoftware.hint.free">
+						<img src="hint_icon.jpg"/>
+					</a>
 				</div>
 
 
-				<div id="navBar" class="w3-content w3-bar w3-center">
-					<a href="resume.pdf" class="bottom_item w3-mobile w3-hover-none w3-half w3-padding">Resume</a>
-					<a href="https://github.com/c-reeder" class="bottom_item w3-mobile w3-hover-none w3-half w3-padding">Github</a>
+				<div id="navBar">
+					<a href="resume.pdf">Resume</a>
+					<a href="https://github.com/c-reeder">Github</a>
 				</div> 
 			</div>
-			<div id=rightCol" class="l2 m2 w3-hide-small side-col w3-col">
-			</div>
-		</div>
+		</div> 
 
 
 	</body>
